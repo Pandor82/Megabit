@@ -1,0 +1,195 @@
+.image {
+    background-image: url(Image_File/image_summer.jpg);
+    position: absolute;
+    width: 1240px;
+    height: 1080px;
+    left: 680px;
+    top: 0px;
+    background-repeat: no-repeat;
+}
+.NavBar {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #131821;
+}
+#EMAIL_INPUT {
+    position: absolute;
+    width: 663px;
+    height: 70px;
+    left: 100px;
+    top: 539px;
+    background: white;
+    border: 1px solid #E3E3E4;
+    box-sizing: border-box;
+    padding-left:44px;
+}
+.button {
+    background-image: url(Image_File/ic_arrow.png);
+    background-size: cover;
+    position: absolute;
+    width: 24px;
+    height: 16px;
+    left: 699px;
+    top: 567px;
+    border:none;
+    opacity:0.3;
+}
+.terms_of_service {
+    position: absolute;
+    width: 359px;
+    height: 28px;
+    left: 181px;
+    top: 662px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6A707B;
+    flex:4;
+}
+.ic_check {
+    background-blend-mode: multiply ;
+}
+.layer1 {
+    z-index: 1;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 140px;
+    top: 663px;
+  
+    background: #FFFFFF;
+    border: 1px solid #E3E3E4;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.layer2 {
+    z-index:2;
+    position: absolute;
+    width: 14px;
+    height: 11px;
+    left: 146px;
+    top: 671px;
+    background-image: url(Image_File/ic_checkmark.svg);
+}
+.SOCIAL {
+    background-blend-mode: multiply;
+}
+.FACEBOOK_layer1 {
+    z-index: 1;
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 218px;
+    top: 791px;
+
+   
+    border: 2px solid #E3E3E4;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+}
+.FACEBOOK_layer2 {
+    background-image: url(Image_File/ic_facebook.png);
+    position: absolute;
+    left: 237px;
+    top: 806px;
+    width: 8px;
+    height: 16px;
+    
+    opacity: 1; z-index:2;
+}
+.INSTAGRAM {
+    background-blend-mode: multiply;
+}
+.INSTAGRAM_layer1 {
+    z-index: 1;
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 284px;
+    top: 791px;
+
+    
+    border: 2px solid #E3E3E4;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+}
+.INSTAGRAM_layer2 {
+    background-image: url(Image_File/ic_instagram.png);
+    position: absolute;
+    left: 299px;
+    top: 806px;
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+    z-index: 2;
+}
+
+
+
+
+
+::placeholder {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6A707B;
+}
+
+#About {
+    position: absolute;
+    width: 42px;
+    height: 26px;
+    left: 331px;
+    top: 114px;
+}
+
+#How_it_works {
+    position: absolute;
+    width: 91px;
+    height: 26px;
+    left: 403px;
+    top: 114px;
+}
+#Contact {
+    position: absolute;
+    width: 56px;
+    height: 26px;
+    left: 524px;
+    top: 114px;
+}
+#Newsletter {
+    position: absolute;
+    width: 399px;
+    height: 44px;
+    left: 140px;
+    top: 374px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    color: #131821;
+   
+}
+#Info {
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 140px;
+    top: 433px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6A707B;
+}
